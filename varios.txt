@@ -1,0 +1,13 @@
+presente en clases
+	https://forms.gle/5nm3B6BQUVst3tov7
+	
+Oficial de react
+	https://es.reactjs.org/docs/getting-started.html
+	
+node js
+	https://nodejs.org/en
+
+	https://github.com/nvm-sh/nvm
+
+	
+	
