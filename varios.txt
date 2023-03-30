@@ -1,6 +1,5 @@
 #### Link con informacion ####
 
-
 presente en clases
 	https://forms.gle/5nm3B6BQUVst3tov7
 	
@@ -12,5 +11,6 @@ node js
 
 	https://github.com/nvm-sh/nvm
 
-	
-	
+### ejecutar app = npm start
+
+componentes de clases
