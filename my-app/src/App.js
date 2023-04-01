@@ -1,12 +1,14 @@
 import './App.css';
 import PrimerComponentes from './components/PrimerComponentes'
 import Tarjetas from './components/Tarjetas'
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
-      <PrimerComponentes />
-      <Tarjetas />
+      <Navbar/>
+      <Tarjetas/>
+      <PrimerComponentes/>
     </>
   );
 }

@@ -7,12 +7,12 @@ import codoAcodo from "../assets/Imagenes/codoacodo.png";
 
 const Tarjetas = () => {
     return (
-        <div class="oradores">
-            <div class="tarjeta">
+        <div className="oradores">
+            <div className="tarjeta">
                 <img src={Jobs} alt="Steve Jobs"/>
-                <div class="botones">
-                    <input type="button" value="JavaScript" class="btnAmarillo"/>
-                    <input type="button" value="React" class="btnAzul"/>
+                <div className="botones">
+                    <input type="button" value="JavaScript" className="btnAmarillo"/>
+                    <input type="button" value="React" className="btnAzul"/>
                 </div>
                 <div>Steve Jobs</div>
                 <div class="texto" >Lorem ipsum dolor sit amet consectetur adipisicing elit.
