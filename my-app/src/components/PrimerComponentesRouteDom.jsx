@@ -10,7 +10,6 @@ return (
       <h1>!!!! Hola Mundo React :-)</h1>
       <button onClick={()=>setStart(start+1)}>Boton</button>
       <h1>{start}</h1>
-      
     </div>
   )
 }
