@@ -16,3 +16,18 @@ node js
 componentes de clases
 
 https://reactrouter.com/en/main
+
+librerias 
+https://tailwindcss.com/
+
+https://tailwindcomponents.com/cheatsheet/
+
+https://www.tailwindshades.com/
+
+https://getbootstrap.com/
+
+https://react-bootstrap.github.io/
+
+https://mui.com/
+
+https://chakra-ui.com/
