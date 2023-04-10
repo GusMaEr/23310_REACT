@@ -14,9 +14,9 @@ function App() {
            <Routes>
                   <Route path='/' element={<NavbarPrincipal/>}>
                     <Route index element={ <Inicio />}/>
-                    <Route path='Agendas' element={ <Agendas />}/>
-                    <Route path='Calendarios' element={ <Calendarios />}/>
-                    <Route path='Cuadernos' element={ <Cuadernos />}/>
+                    <Route path='Agendas' element={ <Agendas/>}/>
+                    <Route path='Calendarios' element={ <Calendarios/>}/>
+                    <Route path='Cuadernos' element={ <Cuadernos/>}/>
                     <Route path='*' element={ <Navigate remplace to="/" />}/>
                   </Route>
            </Routes>

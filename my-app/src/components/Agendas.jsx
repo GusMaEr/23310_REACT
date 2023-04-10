@@ -3,6 +3,6 @@ const Agendas = () => {
        <div>
           <h1>Agendas</h1>
       </div>
-      )
+      );
     }
     export default Agendas
