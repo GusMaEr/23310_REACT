@@ -17,7 +17,7 @@ const navbarPrincipal = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-  );
+  )
 }
 
 export default navbarPrincipal;
