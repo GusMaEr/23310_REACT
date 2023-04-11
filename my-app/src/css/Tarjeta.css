@@ -17,6 +17,7 @@
 
 .tarjeta .botones {
     margin: 1rem .9rem .5rem .5rem;
+    
 }
 
 .tarjeta .botones input [type=button] {
@@ -29,17 +30,6 @@
 
 .tarjeta .botones .btnAmarillo {
     background-color: rgb(255, 194, 7);
-}
-
-.tarjeta .botones .btnAzul {
-    background-color: rgb(23, 162, 188);
-    color: white;
-}
-
-.tarjeta .titulo {
-    font-size: 1.3rem;
-    margin: .2rem .5rem 1rem .5rem;
-    font-weight: bold;
 }
 
 .tarjeta .texto {

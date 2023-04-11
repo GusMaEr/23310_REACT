@@ -1,9 +1,8 @@
-import React from "react";
+import TarjetaSakura from './TarjetasSakura'
+
 const Inicio = () => {
   return (
-     <div>
-        <h1>Inicio</h1>
-    </div>
+     <TarjetaSakura/>
     );
   }
   export default Inicio

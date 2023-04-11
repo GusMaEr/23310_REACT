@@ -1,9 +1,11 @@
-import React from "react";
+import AgendasImg from "../assets/Imagenes/Sakura/sakuraAgendas.png";
 const Agendas = () => {
     return (
-       <div>
-          <h1>Agendas</h1>
-      </div>
+       <div className="tarjeta">
+          <h1>Pagina Agendas</h1>
+          <img src={AgendasImg} alt="Agendas"/>
+          </div>
+      
       );
     }
-    export default Agendas
+export default Agendas

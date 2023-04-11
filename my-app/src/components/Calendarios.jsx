@@ -1,9 +1,10 @@
-import React from "react";
+import CalendariosImg from "../assets/Imagenes/Sakura/sakuraCalendario.png";
 const Calendarios = () => {
     return (
-       <div>
-          <h1>Calendarios</h1>
+       <div className="tarjeta">
+          <h1>Pagina Calendarios</h1>
+          <img src={CalendariosImg} alt="CalendariosImg" />
       </div>
       );
     }
-    export default Calendarios
+export default Calendarios
