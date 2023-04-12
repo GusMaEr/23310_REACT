@@ -16,6 +16,7 @@ const navbarPrincipal = () => {
             <Nav.Link as={Link} to="/Agendas">Agendas</Nav.Link>
             <Nav.Link as={Link} to="/Cuadernos">Cuadernos</Nav.Link>
             <Nav.Link as={Link} to="/Calendarios">Calendarios</Nav.Link>
+            <Nav.Link as={Link} to="/Contacto">Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

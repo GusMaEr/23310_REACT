@@ -16,7 +16,7 @@ export const Footer = () => {
       <li className="nav-item"><a href="/Agendas" className="nav-link px-2 text-body-secondary">Agendas</a></li>
       <li className="nav-item"><a href="/Cuadernos" className="nav-link px-2 text-body-secondary">Cuadernos</a></li>
       <li className="nav-item"><a href="/Calendarios" className="nav-link px-2 text-body-secondary">Calendarios</a></li>
-      <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">About</a></li>
+      <li className="nav-item"><a href="/Contacto" className="nav-link px-2 text-body-secondary">Contacto</a></li>
     </ul>
 
   </footer>

@@ -6,8 +6,8 @@ import Inicio from './components/Inicio';
 import Agendas from './components/Agendas';
 import Calendarios from './components/Calendarios';
 import Cuadernos from './components/Cuadernos';
+import Contacto from './components/Contacto';
 import Footer from './components/Footer';
-
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
          <Route path='/Agendas' element={ <Agendas/>}/>
          <Route path='/Calendarios' element={ <Calendarios/>}/>
          <Route path='/Cuadernos' element={ <Cuadernos/>}/>
+         <Route path='/Contacto'  element={<Contacto/>}/>
       </Routes>
           
       <Footer/>

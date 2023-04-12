@@ -1,11 +1,11 @@
-import AgendasImg from "../assets/Imagenes/Sakura/sakuraAgendas.png";
-const Agendas = () => {
+
+const Contacto = () => {
     return (
-       <div className="tarjeta">
-          <h1>Pagina Agendas</h1>
-          <img src={AgendasImg} alt="Agendas"/>
+       <div>
+          <h1>Pagina Contacto</h1>
+          
           </div>
       
       );
     }
-export default Agendas
+export default Contacto
