@@ -12,7 +12,7 @@ const Tarjetas = () => {
     return (
         <div className="oradores">
             <div className="tarjeta">
-                <img src={Agendas} alt="Agendas"/>
+                <img src={Agendas} alt="Agendas" />
                 <div className="botones">
                     <Nav.Link as={Link} to="/Agendas" className="btnAmarillo">Agendas</Nav.Link>
                 </div>
