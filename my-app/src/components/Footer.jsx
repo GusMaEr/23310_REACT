@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
+import Logo from '../assets/Imagenes/Sakura.png'
 
 export const Footer = () => {
   return (
@@ -18,6 +20,18 @@ export const Footer = () => {
       <li className="nav-item"><a href="/Calendarios" className="nav-link px-2 text-body-secondary">Calendarios</a></li>
       <li className="nav-item"><a href="/Contacto" className="nav-link px-2 text-body-secondary">Contacto</a></li>
     </ul>
+    <FloatingWhatsApp
+        phoneNumber="+5491131070014"
+        accountName="Sakura Arte en Papel"
+        statusMessage="Normalmente responde en 1 hora"
+        chatMessage="¡Hola! 🤝 ¿Cómo te podemos ayudar?"
+        allowEsc
+        allowClickAway
+        notification
+        notificationSound
+        placeholder='Escribe tu mensaje..'
+        avatar={Logo}
+      />
 
   </footer>
 </div>
