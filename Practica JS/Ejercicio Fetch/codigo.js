@@ -7,7 +7,7 @@ async function getDataEvents() {
   
   const json = await response.json();
   
-  const data = json.result;
+  const data = json.results;
   
   return data
 }
