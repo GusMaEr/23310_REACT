@@ -43,6 +43,10 @@ section{
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
   height: 100vh;
 }
-.navBg{
-  background-color:black;
+form{
+  width: 300px;
+  height: 480px;
+  border-radius: 5px;
+  display: center;
+
 }
