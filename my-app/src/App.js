@@ -8,7 +8,7 @@ import Inicio from './components/Inicio';
 import Agendas from './components/Agendas';
 import Calendarios from './components/Calendarios';
 import Cuadernos from './components/Cuadernos';
-import Contacto from './components/Contacto_test';
+import Contacto from './components/Contacto';
 import Footer from './components/Footer';
 
 function App() {

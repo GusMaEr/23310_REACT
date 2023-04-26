@@ -1,5 +1,3 @@
-let data = [];
-
 var EVENTS_API = "https://rickandmortyapi.com/api/character/";
 
 async function getDataEvents() {
@@ -18,13 +16,20 @@ async function displayCardUpcoming() {
  var templateCardUpcoming = "";
 
  datos.forEach(evento => {
-     templateCardUpcoming += `<div class=" card-index card card-body ">
-      <img src="${evento.image}" class="card-img-top" alt="feriaComidas">
-      <h5 class="card-title">${evento.name}</h5>
-      <p class="card-text">${evento.status}</p>
-      <p class="card-text">Date: ${evento.species}</p>
-    </div>`;
-  });
+     templateCardUpcoming += 
+     `<div style="width: 30%; border: 4px solid;  padding: 8px" >
+          <img src="${evento.image}" alt="imagen" width="40%" border="4px solid #0443"  >
+          <div style=" width:45%; border:4px solid; padding:8px; margin-left:50%;" >
+              <h5>Nombre: ${evento.name}</h5>
+              <p>Condicion:  ${evento.status}</p>
+              <p>Specie: ${evento.species}</p>
+              <p>Genero: ${evento.gender}</p>
+              <p>Origen: ${evento.origin.name}</p>
+              <p>Ubicacion: ${evento.location.name}</p>
+           </div>
+
+      </div>`;
+    });
   document.getElementById('Card').innerHTML = templateCardUpcoming
 }
 displayCardUpcoming()
