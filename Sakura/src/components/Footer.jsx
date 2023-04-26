@@ -29,7 +29,7 @@ export const Footer = () => {
         allowClickAway
         notification
         notificationSound
-        placeholder='Escribe tu mensaje..'
+        placeholder="Escribe tu mensaje.."
         avatar={Logo}
       />
 
