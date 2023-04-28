@@ -1,4 +1,5 @@
-var EVENTS_API = "https://rickandmortyapi.com/api/character/";
+ var EVENTS_API = "https://rickandmortyapi.com/api/character/";
+//var EVENTS_API = "https://fakestoreapi.com/products";
 
 async function getDataEvents() {
   const response = await fetch(`${EVENTS_API}`);
