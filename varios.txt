@@ -34,3 +34,10 @@ https://chakra-ui.com/
 
 Disenador de formularios
 https://react-hook-form.com/form-builder
+
+// Instalacion de redux
+npm i redux
+npm i react-redux
+npm i redux-thunk
+
+https://www.bezkoder.com/react-hooks-redux-login-registration-example/
